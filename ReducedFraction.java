@@ -32,7 +32,7 @@ public class ReducedFraction {
         }
         if (denominator == 0)
         {
-            throw new IllegalArgumentException("Denominator cannot be zero.");
+            throw new IllegalArgumentException("Denominator cannot be zero, fix it.");
         }
         reduce();
     }
