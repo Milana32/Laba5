@@ -164,7 +164,8 @@ public class Desk extends JPanel implements Iterable<Queen>{
     
     /* -------------------------- Отрисовка --------------------------- */
     
-    /** Отрисовывает доску
+    /** Отрисовывает доску по размерам
+     * 
     */
     @Override
     public void paint(Graphics g)
