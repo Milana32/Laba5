@@ -85,7 +85,7 @@ public class ReducedFraction {
     {
         if (other.numerator == 0)
         {
-            throw new IllegalArgumentException("You can't divide on zero");
+            throw new IllegalArgumentException("You can't divide on zero, fix it");
         }
 
         int newNumerator = this.numerator * other.denominator;
