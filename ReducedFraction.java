@@ -121,7 +121,7 @@ public class ReducedFraction {
     /* --------------------- Операции сравнения ---------------------- */
 
     /** Сравнение двух дробей. **/
-    public int toCompare(ReducedFraction other)
+    private int toCompare(ReducedFraction other)
     {
         // Приводим дроби к общему знаменателю и сравниваем числители
         int left = this.numerator * other.denominator;
