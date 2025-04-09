@@ -1,6 +1,6 @@
 package point3d;
 
-public final class Point3D
+private final class Point3D
 {
     private final double x;
     private final double y;
