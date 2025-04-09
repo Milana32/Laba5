@@ -15,7 +15,7 @@ public final class Point3D
     }
 
 
-    private Point3D(){this(0, 0, 0);}
+    private Point3D(){this(0, 0, 1);}
 
 
     public double getX()
