@@ -150,7 +150,7 @@ public class Desk extends JPanel implements Iterable<Queen>{
         return isOk;
     }
 
-    /** Ищет новое решение и отображает его
+    /** Ищет новое решение и отображает его на поле
     */
     public void newSolution()
     {
@@ -165,7 +165,7 @@ public class Desk extends JPanel implements Iterable<Queen>{
     /* -------------------------- Отрисовка --------------------------- */
     
     /** Отрисовывает доску по размерам
-     * 
+     *
     */
     @Override
     public void paint(Graphics g)
