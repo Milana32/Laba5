@@ -7,7 +7,7 @@ public final class Point3D
     private final double z;
 
 
-    private Point3D(double x, double y, double z)
+    public Point3D(double x, double y, double z)
     {
         this.x = x;
         this.y = y;
