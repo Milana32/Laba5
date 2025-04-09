@@ -94,7 +94,7 @@ public class ReducedFraction {
         return new ReducedFraction(newNumerator, newDenominator);
     }
 
-    /** Сокращение дроби **/
+    /** Сокращение дробей **/
 
     private int gcd(int numerator, int denominator) // Нахождение НОД
     {
