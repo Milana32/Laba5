@@ -102,7 +102,7 @@ private final class Point3D
                 Math.abs(this.y - other.y) < precision &&
                 Math.abs(this.z - other.z) < precision;
     }
-
+    /переопределение
     @Override
     public String toString()
     {
