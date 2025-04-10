@@ -32,7 +32,7 @@ public class ReducedFraction {
         }
         if (denominator == 0)
         {
-            throw new IllegalArgumentException("Denominator cannot be zero.");
+            throw new IllegalArgumentException("Denominator cannot be zero, fix it.");
         }
         reduce();
     }
@@ -85,7 +85,7 @@ public class ReducedFraction {
     {
         if (other.numerator == 0)
         {
-            throw new IllegalArgumentException("You can't divide on zero");
+            throw new IllegalArgumentException("You can't divide on zero, fix it");
         }
 
         int newNumerator = this.numerator * other.denominator;
@@ -94,7 +94,7 @@ public class ReducedFraction {
         return new ReducedFraction(newNumerator, newDenominator);
     }
 
-    /** Сокращение дроби **/
+    /** Сокращение дробей **/
 
     private int gcd(int numerator, int denominator) // Нахождение НОД
     {
@@ -121,7 +121,7 @@ public class ReducedFraction {
     /* --------------------- Операции сравнения ---------------------- */
 
     /** Сравнение двух дробей. **/
-    public int toCompare(ReducedFraction other)
+    private int toCompare(ReducedFraction other)
     {
         // Приводим дроби к общему знаменателю и сравниваем числители
         int left = this.numerator * other.denominator;
