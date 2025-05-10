@@ -15,7 +15,7 @@ public class Desk extends JPanel implements Iterable<Queen>{
     
     /* =========================== Свойства =============================== */
     
-    /** Размеры доски (в количестве клеток).
+    /** Размеры доски в количестве клеток.
     */
     public static int colCount(){
         return 8;
@@ -150,7 +150,7 @@ public class Desk extends JPanel implements Iterable<Queen>{
         return isOk;
     }
 
-    /** Ищет новое решение и отображает его
+    /** Ищет новое решение и отображает его на поле
     */
     public void newSolution()
     {
@@ -164,7 +164,8 @@ public class Desk extends JPanel implements Iterable<Queen>{
     
     /* -------------------------- Отрисовка --------------------------- */
     
-    /** Отрисовывает доску
+    /** Отрисовывает доску по размерам
+     *
     */
     @Override
     public void paint(Graphics g)
